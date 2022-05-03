@@ -25,8 +25,7 @@ A function called color_assign takes in the string vector returned from the colo
 along with a string and assigns the correct color to the letter and prints it to the screen.
 A function called user_feedback then takes in string vector and a string which will be the
 vector returned from the color_Array function & the user word and provides the user with feedback 
-informing them which letters are in the random word and in the same position, which letteres are
+informing them which letters are in the random word and in the same position, which letters are
 in the random word but not in the same position & which words are not in the random word in any
 position. 
-The user will have 6 attempts after which the program will end and they will not have any more
-opportunities.
+The user will have 6 attempts after which the program will end.
