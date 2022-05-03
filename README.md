@@ -8,7 +8,7 @@ entered to be a real word, however the word to match is a real word.The word can
 of lower case or upper case letters or a mixture of both.
 The user word will then be compared to the word of the day which will be chosen at random from
 a file called Wordle_Dictionary.txt which stores a library of 5 letter words. 
-The user word is first checked if it is valid using a function called user_word_check which is a 
+The user word is first checked if it is valid using a function called check_user_word which is a 
 boolean function that takes in a string (which in this case would be the user word) and returns 
 true if the word is invalid or false if the word is valid based on several checks of the input.
 A function called color_Array then takes in 2 strings which would be the user word & random
@@ -21,7 +21,7 @@ then the color_Array vector will assign "green" for the index position, and if a
 user word is in the random word but not in the same position then color_Array will be assigned
 "yellow" for this index position and if the letter is not in the random word in any position then 
 the color_Array will be assigned "grey" for this index position. 
-A function called color_assign takes in the string vector returned from the color_Array function
+A function called color_assign takes in the string vector returned from the color_Array function   
 along with a string and assigns the correct color to the letter and prints it to the screen.
 A function called user_feedback then takes in string vector and a string which will be the
 vector returned from the color_Array function & the user word and provides the user with feedback 
