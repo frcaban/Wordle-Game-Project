@@ -37,4 +37,4 @@ test which checks that letter_color_Array contains 5 elements. To use it you can
 'make Wordle_Game_Project_Test' then type ./Wordle_Game_Project_Test. It will ask you to enter
 a word. Once you enter a word it will then conduct these tests and will ouput "All tests passed."
 if no problems were encountered. To play the game you can type make Wordle_Game_Project then
-type ./Wordle_Game_Project and enter a word.
+type ./Wordle_Game_Project and enter a word. 
