@@ -29,3 +29,12 @@ informing them which letters are in the random word and in the same position, wh
 in the random word but not in the same position & which words are not in the random word in any
 position. 
 The user will have 6 attempts after which the program will end.
+
+The test program is called Wordle_Game_Project_Test.cpp and it has 3 tests using assert statements.
+The first test checks that the random word selected by the get_random_word function contains 5 
+elements. The second test checks that user_word also contains 5 elements as well as the last
+test which checks that letter_color_Array contains 5 elements. To use it you can just type
+'make Wordle_Game_Project_Test' then type ./Wordle_Game_Project_Test. It will ask you to enter
+a word. Once you enter a word it will then conduct these tests and will ouput "All tests passed."
+if no problems were encountered. To play the game you can type make Wordle_Game_Project then
+type ./Wordle_Game_Project and enter a word.
